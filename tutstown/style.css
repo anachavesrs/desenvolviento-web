@@ -1,0 +1,46 @@
+body{
+	font-family:Open Sans;
+	background-color: #FAF8DA;
+}
+
+h1{
+	font-size: 70px;
+    color: #205D76;
+    text-align: center;
+
+}
+
+h2{
+	color:#205D76;
+	font-size: 40px;
+}
+
+
+.imagens1 {
+	width: 650px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px;
+
+}
+
+.imagens {
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+ul{
+	color: #FFC122;
+
+}
+
+
+a{
+	color: #EA6E2F;
+    font-size: 20px;
+
+}
