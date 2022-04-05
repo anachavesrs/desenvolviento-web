@@ -1,0 +1,45 @@
+body{
+	font-family: helvetica;
+}
+.img-header {
+	width: 234px;
+}
+
+.container{
+	padding: 10px 275px 10px 275px;
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+.link{
+	color: #999999;
+	text-decoration: none;
+	padding: 5px;
+}
+.banner {
+	background: url('../img/banner.jpg');
+	height: 500px;
+	margin-bottom: 40px;	
+}
+.caixa {
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	margin: 50px auto;
+	width: 450px;
+	color: white;
+	padding: 20px;
+}
+.img-section {
+	width: 264px;
+}
+
+p{
+	width: 264px;
+}
+
+
+
