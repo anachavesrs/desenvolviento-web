@@ -5,6 +5,15 @@ body{
 	width: 234px;
 }
 
+header{
+	display: flex;
+
+}
+
+nav{
+	ma
+}
+
 .container{
 	
 }
@@ -48,12 +57,17 @@ h3{
 	font-size: 20px;
 }
 
+
 article{
 	float: left;
-
-	
-	 
+	margin-left: 30px;
 }
+
+
+section {
+	display: flex;
+}
+	
 
 .footer {
 	 margin-top: 40px;
