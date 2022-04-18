@@ -15,7 +15,7 @@ a:hover{
 	text-decoration: underline;
 }
 
-*,*: after, *:before{
+*,*:after,*:before{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
@@ -73,7 +73,7 @@ nav li{
  	top: 48px;
  	background: rgba(0, 0, 0, 0.6);
  	width: 42.55%;
- 	padding: 2.4EM 1.4EM 2.4EM 4.0EM;
+ 	padding: 2.4EM 1.4EM 2.4EM 4EM;
  }
 
  h1{
@@ -169,4 +169,53 @@ nav li{
  	section{
  		margin-top: 600px;
  	}
+ }
+
+ @media screen and (max-width: 640px){
+ 	nav{
+ 		width: 100%;
+ 	}
+ 	nav li{
+ 		font-size: 0.8em;
+ 		float: left;
+ 	}
+ 	nav li:first-child{
+ 		margin-left: 0;
+ 	}
+ }
+
+ @media screen and (max-width: 520px){
+ 	article {
+ 		width: 100%;
+ 		margin-right: 0;
+ 	}
+
+ 	.caixa{
+ 		padding: 1.2EM 2EM 1.2EM 2EM;
+ 		position: relative;
+ 		display: block;
+ 		width: 100%
+ 		background:#000;
+ 		margin-top: 250px;
+ 	}
+
+ 	.banner{
+ 		height: 200px;
+ 	}
+
+ 	section{
+ 		margin-top: 650px;
+ 	}
+ }
+
+ .clearfix:before,
+ .clearfix:after{
+ 	content: "";
+ 	display: table;
+ }
+ .clearfix:after{
+ 	clear: both;
+ }
+ .clearfix{
+ 	*zoom:1;
  }
