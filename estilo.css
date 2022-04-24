@@ -1,6 +1,18 @@
 .projeto{
     font-size: 20px;
     color: #EE82EE;
+    
+}
+.meus-projetos{
+    color: #1e1e2a;
+    background: #FFB6C1;
+    font-size: 22px;
+    margin: 1rem;
+	display: flex;
+    
+}
+h4:hover{
+	background-color: #EE82EE;
 }
 body{
 	font-family: 'Open Sans', sans-serif;
@@ -199,7 +211,7 @@ a:hover{
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: #FFF0F5;
+     background-color: #DB7093;
      background-image: url(img/eu-container2.png);
      background-position: center;
      background-size: cover;
