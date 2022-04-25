@@ -5,14 +5,15 @@
 }
 .meus-projetos{
     color: #1e1e2a;
-    background: #FFB6C1;
+    background: #EE82EE;
     font-size: 22px;
     margin: 1rem;
 	display: flex;
+    letter-spacing: 1px;
     
 }
 h4:hover{
-	background-color: #EE82EE;
+	background-color: #FFF0F5;
 }
 body{
 	font-family: 'Open Sans', sans-serif;
@@ -243,7 +244,7 @@ a:hover{
      width: 100px;
      border-radius: 100%;
      display: block;
-     border: 1px solid #FFF0F5;
+     border: 1px solid #DB7093;
      opacity: 0;
      transition: 0.5 ease-in-out;
  }
