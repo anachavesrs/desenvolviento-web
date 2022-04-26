@@ -153,10 +153,10 @@ a:hover{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 40px;
+    font-size: 25px;
 }
 .menu-itens a:hover{
-    font-size: 45px;
+    font-size: 30px;
 }
 
 /* Animação menu */
