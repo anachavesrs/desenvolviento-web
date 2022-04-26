@@ -155,6 +155,9 @@ a:hover{
     letter-spacing: 4px;
     font-size: 40px;
 }
+.menu-itens a:hover{
+    font-size: 45px;
+}
 
 /* Animação menu */
 #toggle:checked + .checkbox .trace:nth-clild(1) {
