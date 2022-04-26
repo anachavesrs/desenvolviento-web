@@ -11,7 +11,6 @@ body{
   
   }
   .meus-projetos:hover{
-      background-color: #EE82EE;
       font-size: 18px;
   }
 /*HEADER*/
@@ -116,6 +115,7 @@ a:hover{
 #toggle{
 	display: none;
 }
+
 /* menu */
 .menu{
     position: absolute;
@@ -208,7 +208,7 @@ a:hover{
      align-items: center;
      justify-content: center;
      background-color: #DB7093;
-     background-image: url(img/eu-container2.png);
+     background-image: url(img/estagio.png);
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -217,22 +217,58 @@ a:hover{
      cursor: pointer;
      transition: 0.5s ease-in-out;
  }
+ .card1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DB7093;
+    background-image: url(img/ads.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1e1e2a;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.card2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DB7093;
+    background-image: url(img/praia.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1e1e2a;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
  .card-text{
      width: 40%;
      letter-spacing: 1px;
      color: rgb(109, 109, 109);
  }
 
- .card-wrapper{
+ /* .card-wrapper{
      text-align: center;
      display: flex;
      flex-direction: colum;
      justify-content: center;
      align-items: center;
      position: relative;
- }
-
- .card-wrapper::before{
+ } */
+ 
+ /* .card-wrapper::before{
      content: '';
      position: absolute;
      height: 100px;
@@ -242,23 +278,26 @@ a:hover{
      border: 1px solid #DB7093;
      opacity: 0;
      transition: 0.5 ease-in-out;
- }
- .card-wrapper h2 {
+ } */
+
+ /* .card-wrapper h2 {
      font-size: 40px;
      text-transform: uppercase;
      letter-spacing: 4px;
      margin: 0;
      transition: 0.5s ease-in-out;
- }
+ } */
 
- .card-wrapperp {
+
+ /* .card-wrapper p{
      font-size: 0;
      visibility: visible;
      opacity: 0;
      font-weight: bold;
      text-transform: uppercase;
      transition: 0.5s ease-in-out;
- }
+ } */
+
  .card:hover{
      filter: unset;
  }
@@ -266,22 +305,37 @@ a:hover{
  .card:hover > .card-wrapper::before{
      height: 200px;
      opacity: 1;
-     
- }
+ } 
 
- .card:hover > .card-wrapper p {
-     opacity: 1;
-     visibility: visible;
-     font-size: 14px;
- }
+ .card1:hover{
+    filter: unset;
+}
+
+.card1:hover > .card-wrapper::before{
+    height: 200px;
+    opacity: 1;
+} 
+
+.card2:hover{
+    filter: unset;
+}
+
+.card2:hover > .card-wrapper::before{
+    height: 200px;
+    opacity: 1;
+} 
+     
+
  .footer{
-     width: 100%;
-     height: 100px;
-     background-color: #EE82EE;
-     display: flex;
-     align-items: center;
-     color: #1e1e2a;
- }
+    width: 100%;
+    height: 100px;
+    background-color: #EE82EE;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 50px;
+    color: #1e1e2a;
+}
  
 
 
